@@ -1,10 +1,10 @@
 //your JS code here. If required.
 // Select elements
-const gridContainer = document.getElementById('grid-container');
+const gridContainer = document.getElementsByClassName('grid-container');
 const blockIdInput = document.getElementById('block_id');
 const colorInput = document.getElementById('colour_id');
 const changeButton = document.getElementById('change_button');
-const resetButton = document.getElementById('Reset');
+const resetButton = document.getElementById('reset_button');
 
 // Reset grid background colors to transparent
 function resetGridColors() {
